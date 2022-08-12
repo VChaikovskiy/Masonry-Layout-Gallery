@@ -27,12 +27,14 @@ img {
 
 .grid-item {
     margin-bottom: 10px;
+    transition-duration: 500ms;
+    transition-timing-function: linear;
+    transition-delay: 0;
 }
 
 .grid-item:hover {
     cursor: pointer;
-    transform: rotateY(180deg);
-    transform: rotateY(180deg);
+    transform: rotate(180deg);
     /* overflow: hidden; */
     /* backface-visibility: hidden; */
 }
